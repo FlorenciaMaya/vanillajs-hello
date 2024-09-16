@@ -1,1 +1,10 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  display: flex;
+  align-items: center;
+  padding: auto;
+  width: 500px;
+  margin: auto;
+  margin-top: 30px;
+}
