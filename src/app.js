@@ -40,10 +40,9 @@ window.onload = function() {
     "mientras tomaba mate con Ceci"
   ];
 
-  function getRandom(array) {
-    let randomNumber = Math.floor(Math.random() * array.length);
-    return array[randomNumber];
-  }
+  // CAMBIÉ FUNCIÓN NORMAL POR FUNCIÓN FLECHA
+
+  const getRandom = array => array[Math.floor(Math.random() * array.length)];
 
   let excusa = `
   ${getRandom(who)} ${getRandom(action)} ${getRandom(what)} ${getRandom(when)}
